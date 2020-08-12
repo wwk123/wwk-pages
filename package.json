@@ -1,0 +1,39 @@
+{
+  "name": "wwk-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "wwk-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/wwk/wwk-pages#readme",
+  "bugs": {
+    "url": "https://github.com/wwk/wwk-pages/issues"
+  },
+  "license": "MIT",
+  "author": "wangwenke <m17600463015@163.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwk/wwk-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
